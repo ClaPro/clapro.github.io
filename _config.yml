@@ -34,9 +34,9 @@ additional_links:
 - title: Pdf Download
   icon: far fa-file-pdf
   url: https://clapro.github.io/assets/Claudio%20Procentese%20-%20Senior%20sofware%20engineer.pdf
-- title: Send mail to procentese.claudio@gmail.com
-  icon: fas fa-envelope
-  url: mailto:procentese.claudio@gmail.com
+# - title: Send mail to procentese.claudio@gmail.com
+#   icon: fas fa-envelope
+#   url: mailto:procentese.claudio@gmail.com
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
