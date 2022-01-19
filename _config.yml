@@ -75,7 +75,7 @@ content:
     layout: text # Type of content section (list/text)
     content: |
           - Python, Django, Django REST, Pandas, Celery, Redis, Selenium, Pytest.
-          - Javascript, CSS, SCSS, Jquery, Bootstrap. VueJs (familiar), ReactJs (familiar)
+          - Javascript, CSS, SCSS, Jquery, Bootstrap, VueJs(familiar), ReactJs(familiar).
           - PostgreSQL, MongoDB, Microsoft SQL Server.
           - AWS, Nginx, Uwsgi, Jenkins CI, Git.
           - Windows, Linux, MacOs.
