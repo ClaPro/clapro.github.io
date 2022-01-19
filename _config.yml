@@ -1,0 +1,202 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Claudio Procentese
+title: Senior Python Developer
+email: procentese.claudio@gmail.com
+#website: www.github.com/claPro
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: alcagat
+github_username:  claPro
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username:  claudioprocentese
+#xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Pdf Download
+  icon: far fa-file-pdf
+  url: https://clapro.github.io/assets/Claudio%20Procentese%20-%20Senior%20sofware%20engineer.pdf
+- title: Send mail to procentese.claudio@gmail.com
+  icon: fas fa-envelope
+  url: mailto:procentese.claudio@gmail.com
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs,
+  Passionate software engineer with over 10 years of experience in several languages : <mark>Python</mark>,, Java, and PHP.\
+  Experienced in designing and developing web applications, e-commerce portals, and data integration tools in various fields.\
+  Seeks to work with Python(<mark>Django</mark>) web applications writing robust, clean, and scalable software in a well-structured agile environment.
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         Ie started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+          - Python, Django, Django REST, Pandas, Celery, Redis, Selenium, Pytest.
+          - Javascript, CSS, SCSS, Jquery, Bootstrap. VueJs (familiar), ReactJs (familiar)
+          - PostgreSQL, MongoDB, Microsoft SQL Server.
+          - AWS, Nginx, Uwsgi, Jenkins CI, Git.
+          - Windows, Linux, MacOs.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Nivigroup S.p.A
+        link: www.nivi.it
+        
+        sub_title: Senior Software Engineer
+        caption: March 2014 - Present
+        
+        description: | # this will include new lines to allow paragraphs
+            - Created a web application based on Python/Django to acquire, elaborate, and visually display financial information about companies or individuals to provide our customers business insight information.
+            - Developed several Python-based projects upon a proprietary framework for large multi-touch devices regarding aspects of surveillance and innovative city applications.
+            - Deployed and maintained the cloud infrastructure using AWS to keep the stability of our web platform and code deployments.
+
+      - layout: left
+        title: Engineering S.p.A
+        link: www.eng.it/en
+        
+        sub_title: J2EE Developer
+        caption: April 2012 - January 2014
+        
+        description: | # this will include new lines to allow paragraphs
+            - Worked on a J2EE ERP modular suite extensively used by the public healthcare system in the following areas: booking appointments, payments, first aid, and personnel management.
+            - Collaborated with a large team to redesign the web interface to modern standards and prioritize tasks and feature requests.
+            - Managed post mortem analysis and troubleshooting.
+
+      - layout: left
+        title: Bank Monte dei paschi di Siena S.p.A
+        link: www.gruppomps.it/en
+        
+        sub_title: J2EE Developer
+        caption: June 2011 - March 2012
+        
+        description: | # this will include new lines to allow paragraphs
+            - Developed enterprise-level Java applications using J2EE and Spring Framework, exposing web services (EJB 3.0) to an ERP suite to create large pdf batches containing bank daytime transactions.
+            - Introduced Spring Batch, which helped to optimize workload and reduce memory usage and time required for tasks.
+            - Optimized task running time and created a system notification to address issues quickly.
+
+      - layout: left
+        title: Infocube S.r.l
+        link: www.infocube.it
+        
+        sub_title: J2EE/PHP developer
+        caption: October 2009 - January 2011
+        
+        description: | # this will include new lines to allow paragraphs
+            - Collaborated on a Java enterprise software used by a large industrial company (Finmeccanica) to estimate and monitor labor and material costs regarding the construction of new train routes.
+            - Worked on several PHP e-shops and websites.
+            - Troubleshooting and maintenance of legacy code.
+
+      - layout: left
+        title: Engineering S.r.l
+        #link: boringcompany.com
+        
+        sub_title: Java Developer
+        caption: September 2008 - October 2009
+        
+        description: | # this will include new lines to allow paragraphs
+            - Built a CRM software utilized by a call center based on Java/Swing and Asterisk PBX VoIP.
+            - Worked on back-end and front-end of several websites based upon CakePHP framework.
+            - Created a web tool for support listings on eBay commerce stores.
+
+      - layout: left
+        title: SIA Cloud S.r.l
+        link: www.siacloud.com
+        
+        sub_title: Senior Software Engineer
+        caption: March 2015 - September 2006
+        
+        description: | # this will include new lines to allow paragraphs
+            - Built up a PHP web application to release proprietary software updates to customers.
+            - Implemented alert systems (email, SMS) to notify urgent updates.
+            - Decreased the time required by technicians to install new customer software and reduced incoming calls to the help desk.
+    
+      - layout: left
+        title: Muir & Associates
+        link: creditjusticeservices.com
+        
+        sub_title: Senior Software Engineer
+        caption: January 2005 - January 2007
+        
+        description: | # this will include new lines to allow paragraphs
+            - Collaborated to develop a PHP web platform used for credit recovery services.
+            - Managed refactoring and modernization of legacy code.
+            - Improved the security of authorization and authentication of resources.
+  
+  
+  - title: Education # Title for the section 
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Naples "Federico II"
+        caption: 2002
+        sub_title: BSc Computer Science
+        description: | # this will include new lines to allow paragraphs
+            Naples, Italy
+        
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Travel
+      - Astronomy
+      - Music
+      - Cats
+
+# Footer
+#footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
