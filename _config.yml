@@ -1,0 +1,252 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Claudio Procentese
+title: Senior Python Engineer II
+email: procentese.claudio@gmail.com
+#website: www.github.com/claPro
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: alcagat
+github_username:  claPro
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username:  claudioprocentese
+#xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Pdf Download
+  icon: far fa-file-pdf
+  url: https://clapro.github.io/assets/claudio_procentese_senior_software_engineer.pdf
+# - title: Send mail to procentese.claudio@gmail.com
+#   icon: fas fa-envelope
+#   url: mailto:procentese.claudio@gmail.com
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs,
+  As a Senior <mark>Python/Django</mark> Engineer with 10+ years of experience, I am passionate about building efficient and scalable web
+  applications. With expertise in designing, implementing, and deploying complex systems, I continuously seek new challenges to
+  expand my skills. As a proactive problem solver, I constantly explore innovative approaches to enhance software development
+  processes
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         Ie started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+            Languages: Python, Java/J2EE, PHP, C <br/>
+            Framework & libraries: Django REST, Django Ninja, Pydantic, Pandas, Celery, Redis <br/>
+            DBMS: PostgreSQL, Mysql, MongoDB, MS SQL Server <br/>
+            Project management: GitHub, Jira, Buddy, Jenkins CI <br/>
+            Test: Pytest, Selenium, TDD <br/>
+            Cloud: AWS <br/>
+            Windows, Linux, MacOs 
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Protecht Inc
+        link: https://protecht.com/
+        
+        sub_title: Senior Software Engineer
+        caption: March 2022 - Present
+        
+        description: |
+            <ul>
+              <li>Led the complete redesign and development of the legacy platform, transforming it into a modern, scalable, and efficient system.</li>
+              <li>Collaborated closely with cross-functional teams to identify pain points, assess scalability requirements, and propose innovative
+                solutions to streamline processes and enhance performance. </li>
+              <li>Mentored and coached junior developers, fostering their growth and helping them enhance their technical skills.</li>
+            </ul>
+
+      - layout: left
+        title: Nivigroup S.p.A
+        link: www.nivi.it
+
+        sub_title: Senior Software Engineer
+        caption: March 2014 - Present
+
+        description: | # this will include new lines to allow paragraphs
+            <ul>
+              <li>Designed and developed a Python/Django-based web application that acquires, analyzes, and visually presents financial
+                information, providing valuable business insights to our customers.</li>
+              <li>Led the development of multiple Python projects utilizing a proprietary framework for large multi-touch devices, focusing on
+                surveillance and innovative city applications.</li>
+              <li>Managed the deployment and maintenance of the cloud infrastructure on AWS, ensuring the stability of our web platform and
+                smooth code deployments </li>
+            </ul>
+      - layout: left
+        title: Engineering S.p.A
+        link: www.eng.it/en
+
+        sub_title: J2EE Developer
+        caption: April 2012 - January 2014
+
+        description: | # this will include new lines to allow paragraphs
+            <ul>
+              <li>Played a key role in the development and enhancement of a J2EE ERP modular suite extensively utilized by the public healthcare
+                system, specifically focusing on critical areas such as appointment booking, payment processing, first aid, and personnel
+                management.</li>
+              <li>Collaborated closely with a sizable team to revamp the web interface, bringing it up to modern standards and ensuring an intuitive
+                user experience.</li>
+              <li>Demonstrated strong problem-solving abilities by managing post-mortem analysis and troubleshooting efforts, effectively
+                identifying and resolving issues to maintain system stability and performance</li>
+            </ul>
+
+      - layout: left
+        title: Bank Monte dei paschi di Siena S.p.A
+        link: www.gruppomps.it/en
+
+        sub_title: J2EE Developer
+        caption: June 2011 - March 2012
+
+        description: | # this will include new lines to allow paragraphs
+            <ul>
+              <li>Utilized J2EE and the Spring Framework to develop robust, enterprise-level Java applications that integrated with an ERP suite,
+                enabling the creation of large PDF batches containing bank daytime transactions.</li>
+              <li>Implemented web services (EJB 3.0) to facilitate seamless communication between the applications and the ERP suite, ensuring
+                efficient data exchange and processing.</li>
+              <li>Introduced the Spring Batch framework to optimize workload management, resulting in reduced memory usage and significantly
+                improved task execution time.</li>
+            </ul>
+
+      - layout: left
+        title: Infocube S.r.l
+        link: www.infocube.it
+
+        sub_title: J2EE/PHP developer
+        caption: October 2009 - January 2011
+
+        description: | # this will include new lines to allow paragraphs
+            <ul>
+              <li>Collaborated on the development of a Java enterprise software utilized by a prominent industrial company (Finmeccanica) to
+                accurately estimate and monitor labor and material costs associated with the construction of new train routes.</li>
+              <li>Played a significant role in the implementation and maintenance of multiple PHP e-commerce platforms and websites, focusing on
+                delivering seamless user experiences and robust functionalities.</li>
+              <li>Undertook troubleshooting and maintenance tasks, working with legacy code to identify and resolve issues, ensuring the smooth
+                operation of the software systems.</li>
+            </ul>
+
+      - layout: left
+        title: Engineering S.r.l
+        #link: boringcompany.com
+
+        sub_title: Java Developer
+        caption: September 2008 - October 2009
+
+        description: | # this will include new lines to allow paragraphs
+            <ul>
+              <li>Developed a robust CRM software specifically tailored for a call center environment using Java/Swing and Asterisk PBX VoIP,
+                enabling efficient call management and customer relationship management.</li>
+              <li>Contributed to both the back-end and front-end development of multiple websites utilizing the CakePHP framework, ensuring the
+                delivery of feature-rich and visually appealing web solutions.</li>
+              <li>Designed and implemented a web tool specifically focused on support listings for eBay commerce stores, streamlining the process
+                and enhancing the overall efficiency of managing and organizing listings.</li>
+            </ul>
+
+      - layout: left
+        title: SIA Cloud S.r.l
+        link: www.siacloud.com
+
+        sub_title: Senior Software Engineer
+        caption: March 2015 - September 2006
+
+        description: | # this will include new lines to allow paragraphs
+            <ul>
+              <li>Built up a PHP web application to release proprietary software updates to customers.</li>
+              <li>Implemented alert systems (email, SMS) to notify urgent updates.</li>
+              <li>Decreased the time required by technicians to install new customer software and reduced incoming calls to the help desk.</li>
+            </ul>
+
+      - layout: left
+        title: Muir & Associates
+        link: creditjusticeservices.com
+
+        sub_title: Senior Software Engineer
+        caption: January 2005 - January 2007
+
+        description: | # this will include new lines to allow paragraphs
+            <ul>
+              <li>Collaborated on the development of a PHP web platform dedicated to credit recovery services, facilitating efficient and streamlined
+                processes.</li>
+              <li>Led the refactoring and modernization efforts of legacy code, ensuring adherence to best practices and improving overall code
+                quality, maintainability, and scalability.</li>
+              <li>Implemented enhancements to strengthen the security of authorization and authentication mechanisms, safeguarding sensitive
+                resources and protecting user data.</li>
+            </ul>
+  
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Naples "Federico II"
+        caption: 2002
+        sub_title: BSc Computer Science
+        description: | # this will include new lines to allow paragraphs
+            Naples, Italy
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Travel
+      - Astronomy
+      - Music
+      - Cats
+
+# Footer
+#footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
